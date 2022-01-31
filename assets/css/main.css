@@ -1285,7 +1285,9 @@ footer {
   padding: 10px;
   background-color: #9f4103;
   width: 64px;
-  height: 65px;
+  height: 64px;
+  min-height: 64px;
+  min-width: 64px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
