@@ -1340,51 +1340,29 @@ footer {
   }
 }
 
-.benefit_points {
-  margin-bottom: 3rem;
-  background-color: #ffdcc5;
-  padding: 3rem;
-  border-radius: 15px;
-  border: 1px solid #e9e9e9;
-  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 8%);
-}
-
-.benefits_text .title-sub-1 {
-  text-align: justify;
-}
-
-.benefit_points .about-more-title {
-  margin-bottom: 1rem;
-}
-
-.benefit_points h5 {
-  margin-bottom: 2rem;
-  color: #b57d00;
-}
-
-.benefit_points .title-sub-1 {
-  margin-bottom: 0;
-}
-
 .benefits_main {
   margin-bottom: 3rem;
 }
 
 .benefit_inner {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
 }
 
 .ben_spice_img {
   display: block;
-  width: 50%;
+  width: 35%;
   margin-bottom: 1rem;
 }
 
 .ben_spice_img img{
-  height: 180px;
-  width: auto;
+  width: 100%;
+  height: auto;
+}
+
+.spice_benefit_item {
+  margin-bottom: 2rem;
 }
 
 .spice_ben_wrapper {
@@ -1403,6 +1381,8 @@ footer {
 .ben_spice_name .title-sub-1 {
   color: #222222;
   font-weight: 400;
+  text-align: justify;
+  line-height: 1.4;
 }
 
 .our_benefits {
@@ -1432,4 +1412,33 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
+}
+
+#readMoreBtn {
+  font-weight: 600;
+  display: initial;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#readMoreBtn:hover {
+  text-decoration: underline;
+}
+
+#readMore{
+  display: none;
+}
+
+.align_start{
+  align-items: flex-start;
+}
+
+.benefit_name p {
+  margin-bottom: 0;
+}
+
+.benefit_name h5 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
