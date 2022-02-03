@@ -46,6 +46,8 @@ html,
 body {
   font-family: "Roboto", sans-serif, "Segoe UI", "Arial";
   background-color: #fdd7bd;
+  background-image: url(../images/body-bg.jpg);
+  background-size: 50%;
 }
 
 html {
@@ -58,7 +60,6 @@ html {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #fdd7bd;
   transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
 }
 .header-wrapper {
@@ -359,6 +360,7 @@ body.nav-active .sc-link {
 .nav-black {
   -webkit-box-shadow: 0 4px 10px 0 rgb(0 0 0 / 35%);
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 35%);
+  background-color: #fdd7bd;
 }
 
 .sc-main-btn {
@@ -454,6 +456,7 @@ body.nav-active .sc-link {
 .hero_container {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
 }
 
@@ -492,12 +495,18 @@ body.nav-active .sc-link {
 } */
 
 .hero_img_1 {
-  width: 22%;
-  padding-top: 3rem;
+  width: 23%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .hero_img_2 {
-  width: 22%;
+  width: 15%;
+  position: absolute;
+  top: -25px;
+  right: 0;
+  z-index: 99;
 }
 
 .content-eyebrow {
@@ -521,8 +530,9 @@ body.nav-active .sc-link {
 }
 
 .hero-main {
-  background-image: url(../images/bg-home-01.png);
-  background-position: top left;
+  /* background-image: url(../images/bg-home-01.png);
+  background-position: top left; */
+  height: 90vh;
 }
 
 .title-sub-1 {
