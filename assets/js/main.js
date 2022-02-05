@@ -12,6 +12,8 @@
     };
     var applyListeners = function applyListeners() {
       menu.addEventListener("click", function () {
+        $(".nav_all_links").toggle("slow");
+        $(".nav_contact_btn").toggle("slow");
         return toggleClass(body, "nav-active");
       });
     };

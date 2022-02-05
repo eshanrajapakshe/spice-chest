@@ -155,9 +155,12 @@ html {
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
   -webkit-transform: translateX(100%) translateY(-100%);
   transform: translateX(100%) translateY(-100%);
+  background-image: url(../images/bg-home.png);
+  background-size: 100%;
+  background-position: top right;
 }
 .nav:after {
-  background: rgba(9, 9, 12, 1);
+  background-color: rgba(9, 9, 12, 1);
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
@@ -188,6 +191,7 @@ html {
   margin: 0;
   z-index: 2;
 }
+
 .nav__list-item {
   position: relative;
   display: block;
@@ -197,10 +201,10 @@ html {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  font-size: 8vh;
+  font-size: 3vh;
   font-weight: 900;
-  line-height: 1.15;
-  letter-spacing: 3px;
+  line-height: 1.5;
+  letter-spacing: 1px;
   -webkit-transform: translate(100px, 0%);
   transform: translate(100px, 0%);
   -webkit-transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
@@ -210,6 +214,7 @@ html {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .nav__list-item a {
   position: relative;
   text-decoration: none;
@@ -506,7 +511,6 @@ body.nav-active .sc-link {
   position: absolute;
   top: -25px;
   right: 0;
-  z-index: 99;
 }
 
 .content-eyebrow {
@@ -532,7 +536,7 @@ body.nav-active .sc-link {
 .hero-main {
   /* background-image: url(../images/bg-home-01.png);
   background-position: top left; */
-  height: 90vh;
+  height: 98vh;
 }
 
 .title-sub-1 {
@@ -1451,4 +1455,47 @@ footer {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.nav_tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nav_block {
+  display: block;
+  background-color: antiquewhite;
+  padding: 2rem;
+  width: 20%;
+  min-width: 150px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav_block:hover {
+  background-color: rgb(255, 228, 193);
+}
+
+.nav_block a {
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav_block a:hover {
+  text-decoration: underline;
+}
+
+.nav_tiles .nav_block a{
+  color: #222222;
+}
+
+.nav_tiles .nav_block a::after{
+  display: none;
 }
