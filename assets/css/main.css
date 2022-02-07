@@ -1573,3 +1573,19 @@ footer {
 .padding-top-7 {
   padding-top: 7rem;
 }
+
+.product-item-details.text-left {
+  text-align: left;
+}
+
+.product-item-details.text-left p{
+  text-align: left;
+}
+
+.product-item-details ul > li {
+  margin-bottom: 10px;
+}
+
+.product-item-details ul > li > b {
+  font-size: 17px;
+}
