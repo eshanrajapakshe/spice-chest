@@ -6,9 +6,21 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .about-page-section {
+    background-position: top left;
+    background-size: 108%;
+  }
+}
+
 @media (max-width: 1300px) {
   .hero_text h1 {
     font-size: 4rem;
+  }
+
+  .our_team {
+    background-position: center;
+    background-size: 118%;
   }
 }
 
@@ -21,11 +33,40 @@
     padding: 1rem;
     width: 28%;
   }
+
+  .team_item {
+    width: 47%;
+  }
+
+  .team_item_img {
+    padding-bottom: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 992px) {
   .hero_text h1 {
     font-size: 3rem;
+  }
+
+  .team_item {
+    width: 45%;
+  }
+
+  .our_team {
+    padding-bottom: 0;
+  }
+
+  .team_item_img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team_wrapper {
+    gap: 1rem 3rem;
   }
 
   .nav_all_links {
@@ -148,6 +189,19 @@
   .top_product_item_desc h4 {
     font-size: 20px;
   }
+
+  .mission-section {
+    margin-top: 2rem;
+  }
+
+  .about-cinnamon-desc {
+    width: 60%;
+  }
+
+  .about-page-section {
+    background-position: center;
+    background-size: 110%;
+  }
 }
 
 @media (max-width: 810px) {
@@ -160,6 +214,10 @@
 @media (max-width: 768px) {
   .hero_img_1 {
     bottom: 90px;
+  }
+
+  .team_item {
+    width: 98%;
   }
 
   .logo-wrap {
@@ -241,6 +299,15 @@
   .owl-next {
     position: unset;
   }
+
+  .about_us_desc {
+    width: 85%;
+    margin: auto;
+  }
+
+  .mission-inner h4 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -317,6 +384,33 @@
   .nav_block a {
     font-size: 18px;
     letter-spacing: 0px;
+  }
+
+  .about-cinnamon-section {
+    flex-direction: column;
+  }
+
+  .about-cinnamon-img img {
+    border-radius: 15px;
+  }
+
+  .about-cinnamon-img {
+    width: 100%;
+  }
+
+  .about-cinnamon-desc {
+    width: 90%;
+    margin-left: 0;
+    margin-top: -3rem;
+  }
+
+  .team_item_img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .team_wrapper {
+    gap: 0rem 3rem;
   }
 }
 
