@@ -42,16 +42,16 @@
   padding-bottom: 8rem;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif, "Segoe UI", "Arial";
   background-color: #fdd7bd;
   background-image: url(../images/body-bg.jpg);
   background-size: 50%;
-}
-
-html {
-  scroll-behavior: smooth;
+  width: 100%;
 }
 
 .cd-header {
@@ -95,11 +95,12 @@ html {
 .nav-but-wrap {
   position: relative;
   display: inline-block;
-  padding-left: 15px;
-  padding-top: 15px;
+  padding: 10px;
+  border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
   transition: all 0.3s ease-out;
+  background-color: #fdd7bd;
 }
 .menu-icon {
   height: 30px;
@@ -108,6 +109,7 @@ html {
   z-index: 2;
   cursor: pointer;
   display: block;
+  top: 4px;
 }
 .menu-icon__line {
   height: 2px;
@@ -543,9 +545,9 @@ body.nav-active .sc-link {
 }
 
 .hero-main {
-  /* background-image: url(../images/bg-home-01.png);
-  background-position: top left; */
+  min-height: 765px;
   height: 98vh;
+  position: relative;
 }
 
 .sc-link img {
@@ -633,7 +635,6 @@ body.nav-active .sc-link {
 
 .hero_text {
   width: 56%;
-  padding-right: 2rem;
   text-align: center;
 }
 
@@ -641,6 +642,11 @@ body.nav-active .sc-link {
   background-image: url(../images/bg-home-01.png);
   background-size: 100%;
   background-position: top left;
+  overflow: hidden;
+}
+
+.logo-wrap a {
+  display: block;
 }
 
 .section-overlay {
@@ -1733,4 +1739,27 @@ footer {
 .footer_contacts_wrapper {
   display: flex;
   gap: 1rem;
+}
+
+.schedul-meeting-main {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.contact-msg-input {
+  margin-bottom: 1rem;
+}
+
+.form-control{
+  min-height: 45px;
+}
+
+.contact_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact_form,
+.contact_info {
+  width: 50%;
 }

@@ -1,0 +1,350 @@
+@media (max-width: 1500px) {
+  .why_us_wrapper {
+    padding-top: 2em;
+    padding-bottom: 2rem;
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .hero_text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-main {
+    max-height: 785px;
+  }
+
+  .nav_block {
+    padding: 1rem;
+    width: 28%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero_text h1 {
+    font-size: 3rem;
+  }
+
+  .nav_all_links {
+    display: none !important;
+  }
+
+  .hero_text {
+    width: 75%;
+  }
+
+  .about-section {
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-top: -6rem;
+  }
+
+  .product-category-section {
+    background-repeat: repeat;
+    background-size: 100%;
+    padding-top: 1rem;
+  }
+
+  .about_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about_us_desc {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .about_us_img {
+    width: 50%;
+    padding-right: 0;
+  }
+
+  .section-title,
+  .medicinal-properties h5 {
+    font-size: 2rem;
+  }
+
+  .title-sub-1 {
+    font-size: 1rem;
+  }
+
+  .products_item {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+
+  .product_item_details h5 {
+    font-size: 20px;
+  }
+
+  .beverage-right {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .medicinal-properties {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .medicinal-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top_products_section {
+    background-repeat: repeat;
+    padding-top: 1rem;
+  }
+
+  .top_product_item {
+    width: 48%;
+  }
+
+  .why_us_wrapper {
+    background-size: auto 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer_contacts_wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .footer_contact ul {
+    justify-content: flex-end;
+  }
+
+  .footer_contact {
+    width: 100%;
+  }
+
+  .footer_more {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer_about {
+    width: 90%;
+    text-align: center;
+  }
+
+  .f_links {
+    width: 98%;
+    text-align: center;
+  }
+
+  .hero_text h6 {
+    line-height: 1.4;
+  }
+
+  .top_product_item_desc h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 810px) {
+  .beverage-section-wrapper {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_img_1 {
+    bottom: 90px;
+  }
+
+  .logo-wrap {
+    width: 120px;
+  }
+
+  .hero-main {
+    min-height: 680px;
+    max-height: 680px;
+  }
+
+  .beverage-section-wrapper {
+    max-width: unset;
+  }
+
+  .section-title,
+  .medicinal-properties h5 {
+    font-size: 1.7rem;
+  }
+
+  .products_title {
+    margin-bottom: 2rem;
+  }
+
+  .usage_item_title {
+    padding: 0 1rem 1rem 1rem;
+    align-items: center;
+  }
+
+  .usage_item_title h4 {
+    font-size: 16px;
+  }
+
+  .usage_item_title .content-eyebrow {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer_contact ul > li > a {
+    display: none;
+  }
+
+  .footer_contact {
+    width: auto;
+  }
+
+  .footer_contact ul > li > span {
+    margin-left: 0;
+  }
+
+  .footer_contact ul > li > span,
+  .f_social_item {
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sc-link {
+    font-size: 1rem;
+  }
+
+  .nav_tiles.nav__list-item {
+    flex-wrap: wrap;
+  }
+
+  .nav_block {
+    width: 50%;
+  }
+
+  .nav_tiles {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .owl-prev,
+  .owl-next {
+    position: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero_text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero_text h6 {
+    line-height: 1.4;
+    font-size: 1rem;
+  }
+
+  .top_product_item_desc p {
+    color: #333333;
+  }
+
+  .top_products_section {
+    background-size: 107%;
+    background-position: center;
+  }
+
+  .where_using_section {
+    background-size: 100%;
+  }
+
+  .product-category-section {
+    background-size: 114%;
+    background-position: center;
+  }
+
+  .products_item img {
+    background: rgb(250 218 194);
+  }
+
+  .about-section {
+    background-image: url(../images/bg-home-01.png);
+    background-size: 110%;
+    background-position: center;
+  }
+
+  .beverage-section {
+    padding-top: 2rem;
+  }
+
+  .medicinal-properties {
+    gap: 2rem;
+  }
+
+  .hero_text {
+    width: 90%;
+  }
+
+  .hero_img_2 {
+    width: 28%;
+  }
+
+  .hero_img_1 {
+    width: 25%;
+  }
+
+  .sc-link.t-craze-link {
+    display: none !important;
+  }
+
+  .nav-black .logo-wrap {
+    width: 60px;
+  }
+
+  .nav-but-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .nav_block a {
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .products_item {
+    width: 100%;
+  }
+
+  .beverage-right {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .using_item {
+    width: 100%;
+  }
+
+  .why_us_wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .f-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav_contact_btn {
+    display: none !important;
+  }
+}
