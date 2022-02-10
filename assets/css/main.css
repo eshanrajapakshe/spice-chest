@@ -1143,7 +1143,8 @@ footer {
 
 .product-list-section {
   background-image: url(../images/bg-home.png);
-  background-position: top left;
+  background-position: center;
+  background-size: 100%;
 }
 
 .product-list-wrapper {
@@ -1253,6 +1254,7 @@ footer {
 .process_wrapper {
   display: flex;
   gap: 3rem;
+  align-items: flex-start;
 }
 
 .process_img {
@@ -1297,8 +1299,9 @@ footer {
 
 .process-section {
   background-image: url(../images/bg-home.png);
-  background-position: top left;
+  background-position: center;
   margin-top: 4rem;
+  background-size: 100%;
 }
 
 .process_header_title {
@@ -1347,7 +1350,8 @@ footer {
 
 .health-benefits-page {
   background-image: url(../images/bg-home.png);
-  background-position: top left;
+  background-position: center;
+  background-size: 100%;
 }
 
 .popOver_1 {

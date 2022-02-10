@@ -45,6 +45,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .health-benefits-page {
+    background-size: 112%;
+  }
+
+  .section-common.product-page-common.padding-top-7 {
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -54,6 +62,27 @@
 
   .team_item {
     width: 45%;
+  }
+
+  .product-list-section {
+    padding-bottom: 0;
+  }
+
+  .product-page-header {
+    flex-direction: column-reverse;
+  }
+
+  .product-page-header .products_title {
+    width: 100%;
+    padding: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 0;
+  }
+
+  .product-page-header-image {
+    width: 57%;
+    margin-left: auto;
+    margin-top: -7rem;
   }
 
   .our_team {
@@ -202,6 +231,35 @@
     background-position: center;
     background-size: 110%;
   }
+
+  .product-page-common {
+    padding-bottom: 0;
+  }
+
+  .process_wrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .process_img {
+    width: 75%;
+  }
+
+  .process_desc {
+    width: 100%;
+  }
+
+  .section-common.process-section.pt-0 {
+    padding-bottom: 0;
+  }
+
+  .process_wrapper.row_reverse {
+    margin-top: 2rem;
+  }
+
+  .process_wrapper.row_reverse {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 810px) {
@@ -216,8 +274,45 @@
     bottom: 90px;
   }
 
+  .product-page-header-image img {
+    max-height: 200px;
+  }
+
+  .spice_ben_wrapper .benefit_inner {
+    grid-gap: 1rem;
+  }
+
+  .benefit_name h5 {
+    font-size: 1rem;
+  }
+
+  .product-width-2 {
+    max-width: 125px;
+  }
+
+  .custom-product-page-common {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .product-page-header-image {
+    margin-top: -2rem;
+  }
+
   .team_item {
     width: 98%;
+  }
+
+  .padding-top-7 {
+    padding-top: 1rem;
+  }
+
+  .product-list-item {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+
+  .special_order_wrapper {
+    width: 90%;
   }
 
   .logo-wrap {
@@ -249,6 +344,7 @@
 
   .usage_item_title h4 {
     font-size: 16px;
+    text-align: center;
   }
 
   .usage_item_title .content-eyebrow {
@@ -308,11 +404,81 @@
   .mission-inner h4 {
     font-size: 18px;
   }
+
+  .product-list-item {
+    width: 100%;
+  }
+
+  .product-item-image {
+    width: 60%;
+    margin: auto;
+  }
+
+  .product-item-details {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .special_order_wrapper {
+    background-color: #faebd7;
+  }
+
+  .special_order_wrapper {
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .process-section {
+    background-size: 113%;
+  }
+
+  .process_wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .about-more-section {
+    background-position: center;
+    background-size: 110%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
   .hero_text h1 {
     font-size: 2.5rem;
+  }
+
+  .custom_product_wrapper {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .cp_img {
+    width: 60%;
+  }
+
+  .benefit_inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .benefit_wrapper_inner {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .about-more-title {
+    font-size: 22px;
+  }
+
+  .cp_details {
+    width: 100%;
   }
 
   .hero_text h6 {
@@ -402,6 +568,7 @@
     width: 90%;
     margin-left: 0;
     margin-top: -3rem;
+    padding: 2rem;
   }
 
   .team_item_img {
@@ -411,6 +578,26 @@
 
   .team_wrapper {
     gap: 0rem 3rem;
+  }
+
+  .about-cinnamon-section {
+    background-size: 105%;
+    background-position: center;
+  }
+
+  .ben_spice_img {
+    width: 50%;
+  }
+
+  .benefit_icon {
+    width: 45px;
+    height: 45px;
+    min-height: 45px;
+    min-width: 45px;
+  }
+
+  .spice_ben_wrapper .benefit_inner {
+    grid-gap: 0.2rem;
   }
 }
 
@@ -440,5 +627,9 @@
 
   .nav_contact_btn {
     display: none !important;
+  }
+
+  .our_benefits_wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
