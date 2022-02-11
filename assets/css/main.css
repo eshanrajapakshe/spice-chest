@@ -1755,16 +1755,58 @@ footer {
   margin-bottom: 1rem;
 }
 
-.form-control{
+.form-control {
   min-height: 45px;
 }
 
 .contact_wrapper {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .contact_form,
 .contact_info {
   width: 50%;
+}
+
+.contact_item span img {
+  width: 26px;
+  margin-right: 1rem;
+}
+
+.contact_item {
+  margin-bottom: 15px;
+}
+
+.contact_item a {
+  color: #222222;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact_item a:hover {
+  color: #9f4103;
+  text-decoration: underline;
+}
+
+.contact_info_inner {
+  margin-bottom: 2rem;
+}
+
+.contact_social .f_social_item {
+  margin-left: 0;
+  border: 1px solid #222222;
+}
+
+.contact_social .f_social_item img {
+  filter: invert(0);
+}
+
+.contact_social {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact_form .section-title {
+  margin-bottom: 0.5rem;
 }

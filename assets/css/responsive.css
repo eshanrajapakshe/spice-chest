@@ -260,6 +260,10 @@
   .process_wrapper.row_reverse {
     flex-direction: column;
   }
+
+  .contact-page-section.padding-top-7 {
+    padding-top: 6rem;
+  }
 }
 
 @media (max-width: 810px) {
@@ -272,6 +276,20 @@
 @media (max-width: 768px) {
   .hero_img_1 {
     bottom: 90px;
+  }
+
+  .contact-page-section.padding-top-7 {
+    padding-top: 3rem;
+  }
+
+  .contact_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact_form,
+  .contact_info {
+    width: 90%;
   }
 
   .product-page-header-image img {
@@ -631,5 +649,10 @@
 
   .our_benefits_wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact_form,
+  .contact_info {
+    width: 96%;
   }
 }
