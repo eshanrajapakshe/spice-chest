@@ -6,10 +6,26 @@
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .about-page-section {
     background-position: top left;
     background-size: 108%;
+  }
+
+  .product-category-section {
+    background-size: 112%;
+  }
+
+  .top_products_section {
+    background-size: 105%;
+  }
+
+  .where_using_section {
+    background-size: 110%;
+  }
+
+  .about-section {
+    background-size: 107%;
   }
 }
 
@@ -114,7 +130,7 @@
 
   .product-category-section {
     background-repeat: repeat;
-    background-size: 100%;
+    background-size: 110%;
     padding-top: 1rem;
   }
 

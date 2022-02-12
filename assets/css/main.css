@@ -541,7 +541,8 @@ body.nav-active .sc-link {
 .about-section {
   background-image: url(../images/home-bg-03.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: center;
+  background-size: 100%;
 }
 
 .hero-main {
@@ -641,7 +642,7 @@ body.nav-active .sc-link {
 .beverage-section {
   background-image: url(../images/bg-home-01.png);
   background-size: 100%;
-  background-position: top left;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -705,9 +706,8 @@ body.nav-active .sc-link {
 
 .top_products_section {
   background-image: url(../images/home-bg-04.png);
-  background-repeat: no-repeat;
   background-size: contain;
-  background-position: top right;
+  background-position: center;
 }
 
 .top_products_wrapper {
@@ -854,7 +854,8 @@ footer {
 
 .product-category-section {
   background-image: url(../images/bg-home.png);
-  background-position: top left;
+  background-position: center;
+  background-size: 100%;
 }
 
 .about_us_img {
@@ -918,7 +919,8 @@ footer {
 
 .where_using_section {
   background-image: url(../images/bg-home.png);
-  background-position: top left;
+  background-position: center;
+  background-size: 100%;
 }
 
 .about-page-section .about_wrapper {
