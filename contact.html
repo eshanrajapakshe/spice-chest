@@ -83,26 +83,26 @@
                     <h2 class="section-title">Just say Hello!
                     </h2>
                     <h6 class="title-sub-1">Please get in touch with us for all your inquires.</h6>
-                    <form id="sendMessage">
+                    <form name="contact" method="POST" data-netlify="true">
                         <div class="contact-msg-input">
                             <label for="contactName" class="contact-msg-input__label">Name</label>
-                            <input type="text" id="contactName" class="form-control" autocomplete="off" required
+                            <input type="text" name="name" class="form-control" autocomplete="off" required
                                 maxlength="40"> </div>
                         <div class="contact-msg-input">
                             <label for="contactEmail" class="contact-msg-input__label">Email</label>
-                            <input type="email" id="contactEmail" class="form-control" autocomplete="off" required=""
+                            <input type="email" name="email" class="form-control" autocomplete="off" required
                                 maxlength="40">
                         </div>
                         <div class="contact-msg-input">
                             <label for="contactSubject" class="contact-msg-input__label">Subject</label>
-                            <input type="text" id="contactSubject" class="form-control" autocomplete="off" required=""
-                                maxlength="40">
+                            <input type="text" name="subject" class="form-control" autocomplete="off" maxlength="40">
                         </div>
                         <div class="contact-msg-input">
                             <label for="contactMessage" class="contact-msg-input__label">Message</label>
-                            <textarea type="text" id="contactMessage" class="form-control" autocomplete="off"
-                                required="" maxlength="250"></textarea>
+                            <textarea type="text" name="message" class="form-control" autocomplete="off" required
+                                maxlength="250"></textarea>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="schedul-meeting-main">
                             <button type="submit" class="sc-main-btn">Send</button>
                         </div>
