@@ -280,6 +280,14 @@
   .contact-page-section.padding-top-7 {
     padding-top: 6rem;
   }
+
+  .product-list-wrapper-tea {
+    padding-top: 2rem;
+  }
+
+  .product-list-wrapper-tea h5 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 810px) {

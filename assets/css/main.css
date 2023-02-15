@@ -121,7 +121,8 @@ body {
   -webkit-transition: background-color 0.5s ease, -webkit-transform 0.2s ease;
   transition: background-color 0.5s ease, -webkit-transform 0.2s ease;
   transition: transform 0.2s ease, background-color 0.5s ease;
-  transition: transform 0.2s ease, background-color 0.5s ease, -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.5s ease,
+    -webkit-transform 0.2s ease;
 }
 .menu-icon__line-left {
   width: 16.5px;
@@ -151,10 +152,15 @@ body {
   background: rgba(20, 21, 26, 0.6);
   border-bottom-left-radius: 200%;
   z-index: 99;
-  -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-  transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+  -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s,
+    border-radius linear 0.8s;
+  transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s,
+    border-radius linear 0.8s;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s,
+    border-radius linear 0.8s;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s,
+    -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s,
+    border-radius linear 0.8s;
   -webkit-transform: translateX(100%) translateY(-100%);
   transform: translateX(100%) translateY(-100%);
   background-image: url(../images/bg-home.png);
@@ -212,7 +218,8 @@ body {
   -webkit-transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
   transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
   transition: opacity 0.2s ease, transform 0.3s ease;
-  transition: opacity 0.2s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.2s ease, transform 0.3s ease,
+    -webkit-transform 0.3s ease;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -308,10 +315,12 @@ body.nav-active .nav__list-item {
   opacity: 1;
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
-  -webkit-transition: opacity 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transition: opacity 0.3s ease, color 0.3s ease,
+    -webkit-transform 0.3s ease;
   transition: opacity 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
-  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease,
+    -webkit-transform 0.3s ease;
 }
 body.nav-active .nav__list-item:nth-child(0) {
   -webkit-transition-delay: 0.7s;
@@ -910,7 +919,11 @@ footer {
   width: 100%;
   height: 50%;
   background: rgb(253, 215, 189);
-  background: linear-gradient(180deg, rgba(253, 215, 189, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(253, 215, 189, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .usage_item_title .content-eyebrow {
@@ -945,7 +958,11 @@ footer {
   margin-top: 4rem;
   border-radius: 15px;
   background: rgb(159, 65, 3);
-  background: radial-gradient(circle, rgba(159, 65, 3, 1) 0%, rgb(129 51 0) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(159, 65, 3, 1) 0%,
+    rgb(129 51 0) 100%
+  );
 }
 
 .mission-inner {
@@ -1071,7 +1088,8 @@ footer {
   object-fit: cover;
 }
 
-.product-item-details h5 {
+.product-item-details h5,
+.product-list-wrapper-tea h5 {
   font-family: "Bree Serif", serif;
   font-size: 30px;
   margin-bottom: 2rem;
@@ -1130,6 +1148,7 @@ footer {
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
+  min-height: 57px;
 }
 
 /* .product-item-details p > span {
@@ -1778,12 +1797,24 @@ footer {
 
 .contact_item {
   margin-bottom: 15px;
+  display: flex;
+  gap: 6px;
+}
+
+.contact-phone span {
+  padding-top: 6px;
 }
 
 .contact_item a {
   color: #222222;
   font-weight: 500;
   text-decoration: none;
+}
+
+.contact_item-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .contact_item a:hover {
@@ -1811,4 +1842,46 @@ footer {
 
 .contact_form .section-title {
   margin-bottom: 0.5rem;
+}
+
+.tea-main-range {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tea-main-range-item {
+  width: 48%;
+}
+
+.eb-title {
+  color: #285861;
+}
+
+.bm-title {
+  color: #74438a;
+}
+
+.vr-title {
+  color: #8d263e;
+}
+
+.co-title {
+  color: #a54a00;
+}
+
+.lemon-title {
+  color: #2c8e2e;
+}
+
+.peach-title {
+  color: #d33715;
+}
+
+.rose-1-title {
+  color: #e4355f;
+}
+
+.rose-2-title {
+  color: #c51419;
 }
